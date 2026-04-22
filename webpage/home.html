@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University of Jammu</title>
+<link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+
+<header>
+  <h2>University of Jammu</h2>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="toggle" onclick="toggleMode()">Dark Mode</div>
+</header>
+
+<section class="hero">
+  <h1>Welcome to University of Jammu</h1>
+  <p>Empowering Education, Building Future</p>
+
+<!--  <div class="search-box">
+    <input type="text" placeholder="Search courses...">
+  </div>-->
+</section>
+
+<div class="container">
+
+<div class="section" id="about">
+  <h2>About Us</h2>
+  <p>The University of Jammu is a prestigious institution known for its academic excellence and commitment to quality education. It provides a wide range of undergraduate and postgraduate programs.</p>
+  <p>The university focuses on research, innovation, and holistic development of students through modern infrastructure, experienced faculty, and a vibrant campus environment.</p>
+  <p>It prepares students for global opportunities and encourages critical thinking, leadership, and professional growth.</p>
+</div>
+
+<div class="section" id="courses">
+  <h2>Courses Offered</h2>
+  <div class="course-list">
+    <div class="course-card">BSc</div>
+    <div class="course-card">BA</div>
+    <div class="course-card">BTech</div>
+    <div class="course-card">BCA</div>
+    <div class="course-card">CS & IT</div>
+    <div class="course-card">MSc</div>
+    <div class="course-card">MA</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Course Details</h2>
+  <table>
+    <tr>
+      <th>Course</th>
+      <th>Duration</th>
+      <th>Fees</th>
+    </tr>
+    <tr>
+      <td>BSc</td>
+      <td>3 Years</td>
+      <td>₹30,000/year</td>
+    </tr>
+    <tr>
+      <td>BTech</td>
+      <td>4 Years</td>
+      <td>₹80,000/year</td>
+    </tr>
+    <tr>
+      <td>MSc</td>
+      <td>2 Years</td>
+      <td>₹40,000/year</td>
+    </tr>
+  </table>
+</div>
+
+<div class="section" id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required><br>
+    <input type="email" placeholder="Your Email" required><br>
+    <textarea placeholder="Your Message" rows="4" required></textarea><br>
+    <button type="submit">Send Message</button>
+  </form>
+  <p>Email: info@jammuuniversity.ac.in</p>
+  <p>Phone: +91 1234567890</p>
+</div>
+
+</div>
+
+<footer>
+  <p>© 2026 University of Jammu | All Rights Reserved</p>
+</footer>
+
+<script>
+function toggleMode() {
+  document.body.classList.toggle("dark");
+}
+</script>
+
+</body>
+</html>
